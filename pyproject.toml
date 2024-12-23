@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_pixtral_large"
+description = "A ComfyUI custom node that integrates Mistral AI's Pixtral Large vision model, enabling powerful multimodal AI capabilities within ComfyUI. Pixtral Large is a 124B parameter model (123B decoder + 1B vision encoder) that can analyze up to 30 high-resolution images simultaneously."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/ShmuelRonen/ComfyUI_pixtral_large"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_pixtral_large"
+Icon = ""
