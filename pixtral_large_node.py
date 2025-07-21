@@ -161,7 +161,7 @@ class ComfyUIPixtralLarge:
             ]
             
             data = {
-                "model": "pixtral-large-latest",
+                "model": "pixtral-12b-2409",
                 "messages": messages,
                 "temperature": temperature,
                 "max_tokens": maximum_tokens,
